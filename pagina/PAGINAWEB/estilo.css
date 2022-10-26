@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,500&display=swap');
+
+@media screen and (max-width: 650px){
+	#menu{
+		display: none;
+	}
+	#menu_chico{
+		display: block;
+	}
+}
+
+@media screen and (min-width: 650px){
+	.div_nav{
+		display: inline-block;
+	}
+	#menu_chico{
+		display: none;
+	}
+}
+nav{
+	background: white;
+}
+img{
+	margin-top: 200px;
+	width: 200px;
+}
+body{
+	background-color: black;
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Mulish', sans-serif;
+}
+h1{
+	font-family: 'Mulish', sans-serif;
+}
+h2{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+}
+
+
+.div_nav{
+	display: inline-block;
+	margin: 10px 35px;
+	font-size: 30px;
+	font-family: 'Bebas Neue', cursive;
+	text-shadow: 2px 2px 2px black;
+}
+
+#div_nav2{
+	position: absolute;
+	right: 0px;
+	margin-top: 35px;
+}
+
+#div_nav2 a, #div_nav4 a{
+	margin-right: 50px;
+	font-size: 20px;
+	text-decoration:none;
+	color: black;
+	text-shadow: 2px 2px 2px white;
+}
+#div_nav4 a{
+	display: block;
+	border: 1px solid white;
+	padding: 5px 20px;
+	font-size: 30px;
+}
+#inicio{
+	background-image: url(inicio.jpg);
+	background-size: contain;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding: 50px 10px;
+	font-size: 30px;
+	
+}
+#inicio button{
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 20px;
+	background-color: black;
+	color: red;
+	border: none;
+}
+#inicio button:hover{
+	background-color: red;
+	color: white;
+}
+.item1{
+		display: inline-block;
+		border: double grey 3px;
+		padding: 5px 20px;
+		background-color: white;
+		color: black;
+	}
+.item1 img{
+		height: 200px;
+		width: 200px;
+	}
+	.item1:hover{
+		background-color: red;
+		border: double black 3px;
+		box-shadow:3px 3px 3px black;
+	}
+
+.item{
+		color: black;
+		background-color: white;
+		display: inline-block;
+		border: double red 3px;
+		margin: 20px 5%;
+		padding: 5px 20px;
+	}
+.item img{
+		height: 200px;
+		width: 200px;
+	}
+	.item:hover{
+		background-color: red;
+		border: double black 3px;
+		box-shadow:3px 3px 3px black;
+	}
+	.letra{
+		background-color: red;
+		font-size: 50px;
+	}
+#pie{
+	background-color: red;
+	color: black;
+}
+#contacto{
+	background-color: white;
+	color: black;
+	padding: 50px;
+}
+input, textarea{
+	width: 50%;
+  background-color: black;
+  padding: 5px;
+  font-family: 'Mulish', sans-serif;
+  border-radius: 4px;
+  border: 2px solid red;
+  font-size: 18px;
+  color: white;
+}
+button{
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 20px;
+	background-color: black;
+	color: red;
+	border: none;
+}
+button:hover{
+	background-color: red;
+	color: white;
+}
